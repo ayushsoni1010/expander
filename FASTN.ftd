@@ -4,6 +4,8 @@
 
 -- fastn.dependency: fifthtry.github.io/doc-site as ds
 -- fastn.dependency: fifthtry.github.io/bling as bling
+-- fastn.dependency: fifthtry.github.io/admonitions
+-- fastn.dependency: fifthtry.github.io/winter-cs
 
 -- fastn.auto-import: bling/chat as chat
 -- fastn.auto-import: ds
