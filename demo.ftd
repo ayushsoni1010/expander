@@ -1,0 +1,23 @@
+-- import: fifthtry.github.io/doc-site as ds
+-- import: ayushsoni1010.github.io/expander/assets
+-- import: fifthtry.github.io/admonitions as ad
+-- import: fifthtry.github.io/winter-cs
+
+-- ds.page: Demo page
+site-logo: $assets.files.images.logo.svg
+colors: $winter-cs.main
+
+-- ds.h1: About this page
+
+This page is created by using four packages. They are given below:
+
+- doc-site
+- expander
+- admonitions
+- color-schemes
+
+-- ad.info: Admonition note
+
+You can create your own exciting `components` and use it just like we did here, or, publish it as a packahe on GitHub and share it for others to use it.
+
+-- end: ds.page
