@@ -1,0 +1,53 @@
+-- ftd.text: Hello world
+padding.px: 20
+margin.px: 10
+border-width.px: 1
+border-radius.px: 5
+background.solid: blue
+color: white 
+
+-- ftd.column:
+padding.px: 50
+background.solid: #eee
+width: fill-container
+align-content: top-center
+
+-- ftd.text: First Child
+-- ftd.text: Second Child
+
+-- end: ftd.column
+
+-- ftd.row:
+
+-- ftd.text: First Child
+-- ftd.text: Second Child
+
+-- end: ftd.row
+
+-- ftd.text: I am here
+margin-top.px: 100
+margin-left.px: 50
+
+-- ftd.column:
+padding.px: 20
+margin.px: 20
+background.solid: #eee
+width: fill-container
+border-width.px: 1
+spacing.fixed.px: 10
+
+-- ftd.row:
+width: fill-container
+spacing: space-between
+border-bottom-width.px: 1
+padding.px: 10
+
+-- ftd.text: Header
+
+-- ftd.text: X
+
+-- end: ftd.row
+
+-- ftd.text: Body
+
+-- end: ftd.column
